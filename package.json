@@ -1,0 +1,24 @@
+{
+	"name": "obfuscator",
+	"module": "index.ts",
+	"devDependencies": {
+		"@types/bun": "latest",
+		"javascript-obfuscator": "^4.1.1"
+	},
+	"peerDependencies": {
+		"typescript": "^5"
+	},
+	"private": true,
+	"scripts": {
+		"start": "bun index.ts",
+		"build:win": "bun build --compile --minify --target bun-windows-x64 ./index.ts --outfile ./dist/obfuscator.exe",
+		"build:mac": "bun build --compile --minify --target bun-darwin-x64 ./index.ts --outfile ./dist/obfuscator-macos",
+		"build:linux": "bun build --compile --minify --target bun-linux-x64 ./index.ts --outfile ./dist/obfuscator-linux",
+		"build:all": "bun run build:win & bun run build:mac & bun run build:linux"
+	},
+	"type": "module",
+	"dependencies": {
+		"@inquirer/prompts": "^7.4.0",
+		"ora": "^8.2.0"
+	}
+}

@@ -1,0 +1,4 @@
+- --compact true：压缩代码，去除换行和多余空格。
+- --control-flow-flattening true：启用控制流平坦化，增加代码复杂度。
+- --dead-code-injection true：注入死代码，进一步混淆。
+- --self-defending true：启用自防御机制，防止代码被轻易解混淆。
