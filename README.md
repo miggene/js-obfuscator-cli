@@ -1,27 +1,23 @@
 # JS Obfuscator CLI
 
-**[English](#english) | [中文](#chinese)**
+**[English](./README.md) | [中文](./README_CN.md)**
 
----
-
-## English
-
-### Overview
+## Overview
 
 A command-line tool built with [Bun](https://bun.sh/) to obfuscate JavaScript files interactively. This tool allows users to select files from a directory and apply obfuscation using the `javascript-obfuscator` library, with a sleek progress indicator powered by `ora`.
 
-### Features
+## Features
 
 - **Interactive File Selection**: Choose specific `.js` files to obfuscate using a checkbox interface.
 - **Obfuscation**: Applies advanced obfuscation techniques (e.g., control flow flattening, self-defending) to protect your code.
 - **Cross-Platform Builds**: Compile into standalone executables for Windows, macOS, and Linux.
 - **Progress Feedback**: Displays real-time progress with a spinner and detailed status updates.
 
-### Prerequisites
+## Prerequisites
 
 - [Bun](https://bun.sh/) installed (`curl -fsSL https://bun.sh/install | bash`).
 
-### Installation
+## Installation
 
 1. Clone the repository:
 
@@ -36,11 +32,11 @@ A command-line tool built with [Bun](https://bun.sh/) to obfuscate JavaScript fi
    bun install
    ```
 
-### Usage
+## Usage
 
-#### Running Locally
+### Running Locally
 
-##### Run the tool with Bun
+#### Run the tool with Bun
 
 ```bash
 bun run start
@@ -50,7 +46,7 @@ bun run start
 - Select files to obfuscate from the interactive prompt.
 - Watch the obfuscation process with a progress spinner.
 
-##### Building Executables
+#### Building Executables
 
 Compile into standalone binaries:
 
@@ -69,7 +65,7 @@ bun run build:linux  # Linux
 
 Executables (obfuscator.exe, obfuscator-macos, obfuscator-linux) will be generated in the root directory.
 
-### Scripts
+## Scripts
 
 ```json
 "scripts": {
@@ -81,14 +77,14 @@ Executables (obfuscator.exe, obfuscator-macos, obfuscator-linux) will be generat
 }
 ```
 
-### Dependencies
+## Dependencies
 
 - @inquirer/prompts
 - javascript-obfuscator
 - ora
 - concurrently (dev)
 
-### Contributing
+## Contributing
 
 1. Fork the repository.
 2. Create a feature branch (git checkout -b feature/new-feature).
@@ -96,7 +92,7 @@ Executables (obfuscator.exe, obfuscator-macos, obfuscator-linux) will be generat
 4. Push to the branch (git push origin feature/new-feature).
 5. Open a Pull Request.
 
-### [License](./LICENSE)
+## [License](./LICENSE)
 
 MIT License
 

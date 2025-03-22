@@ -1,10 +1,3 @@
-// import { $ } from 'bun';
-
-// // await $`javascript-obfuscator ./input --output dist --compact true --self-defending true`;
-// await $`javascript-obfuscator ./input --output ./input --compact true --self-defending true --dead-code-injection true --control-flow-flattening true`;
-
-// console.log('文件混淆完成！');
-
 import { checkbox, input } from '@inquirer/prompts';
 import JavaScriptObfuscator from 'javascript-obfuscator';
 import { statSync } from 'node:fs';
