@@ -17,7 +17,7 @@ JS Obfuscator CLI 是一个基于 Bun 构建的命令行工具，用于交互式
 
 ### 前置条件
 
-- 安装 - [Bun](https://bun.sh/) installed (`curl -fsSL https://bun.sh/install | bash`).。
+- 安装 - [Bun](https://bun.sh/) installed (`curl -fsSL https://bun.sh/install | bash`).
 
 ### 安装
 
@@ -38,7 +38,7 @@ bun install
 
 #### 本地运行
 
-##### 使用 Bun 运行工具：
+##### 使用 Bun 运行工具
 
 ```bash
 bun run start
@@ -94,4 +94,26 @@ bun run build:linux # Linux
 4. 推送分支（git push origin feature/new-feature）。
 5. 提交 Pull Request。
 
-### 许可证
+### [许可证](./LICENSE)
+
+MIT License
+
+Copyright (c) 2025 miggene
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
